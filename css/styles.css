@@ -5,6 +5,7 @@
   --accent-text-color: rgba(231, 233, 252, 1);
   --brand-text-color: rgba(77, 90, 229, 1);
   --accent-section-color: rgba(244, 244, 253, 1);
+  --button-accent-color: rgba(64, 75, 191, 1);
 }
 
 *,
@@ -148,7 +149,19 @@ margin-right: 40px;
 
 /* ==Hero Section== */
 .hero {
+  max-width: 1440px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--title-text-color);
+  background-image: url(../Images/hero/people-office\ 1.jpg);
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(to right,
+   rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)),
+  url(../Images/hero/people-office\ 1.jpg);
   padding-top: 192px;
   padding-bottom: 292px;
   text-align: center;
@@ -185,9 +198,7 @@ margin-right: 40px;
 .hero-button:hover,
 .hero-button:focus {
   color: var(--accent-text-color);
-  background-color: #4d5ae5;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: var(--button-accent-color);
 }
 
 /* ==Benefit Section== */
