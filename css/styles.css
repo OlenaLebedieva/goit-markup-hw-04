@@ -223,6 +223,26 @@ margin-right: 40px;
   padding-bottom: 120px;
 }
 
+/* ==Для іконок== */
+
+.benefit-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.benefit-pictures {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--accent-section-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .benefit-section {
   padding-top: 120px;
 }
@@ -292,7 +312,9 @@ margin-left: 24px;
 }
 
 .team-item {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+   0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -315,6 +337,40 @@ margin-left: 24px;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+/* ==team social icons */
+
+.team-social-list {
+  display: flex;
+  width: 232px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.team-social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.team-social-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: var(--brand-text-color);
+  border-radius: 50%;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--button-accent-color);
 }
 
 /*=== Footer=== */
